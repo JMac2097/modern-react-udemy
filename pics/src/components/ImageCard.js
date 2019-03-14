@@ -33,8 +33,13 @@ class ImageCard extends React.Component {
                 src={urls.regular}
                 />
             </div>
-        );
-    }
+
+
+            );
+        }
+        console.log(this.props.image);   
 }  
 
 export default ImageCard;
+
+
